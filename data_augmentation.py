@@ -34,8 +34,8 @@ def augment_image(image_path, output_dir, num_augmented=5):
         aug_image_pil.save(output_path)
 
 # Example usage
-dataset_path = "C:\\Users\\hubertdo\\AI\\images"
-output_path = "C:\\Users\\hubertdo\\AI\\output"
+dataset_path = "path_to_folder_image"
+output_path = "path_to_folder_result"
 os.makedirs(output_path, exist_ok=True)
 
 for root, _, files in os.walk(dataset_path):
